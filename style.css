@@ -1,0 +1,99 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding-top: 60px; /* Altura do menu */
+    padding-bottom: 100px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    visibility: none;
+}
+
+.container-fluid{
+    margin-left: 30px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.float{
+    float: right;
+    margin-right: 60px;
+}
+
+.imagem{
+    margin-top: -70px;
+    margin-left: 490px;
+}
+
+.textoprincipal{
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-left: 110px;      
+    margin-top: -480px;
+}
+
+.btn-group1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -370px;
+}
+
+
+.btn-group2{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -240px;
+}
+
+.btn-group3{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -177px;
+}
+
+.btn-group4{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -114px;
+}
+
+.btn-group5{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.texto2{
+    position: absolute;
+    color: black;
+    margin-left: 130px;
+    margin-top: -280px;
+}
+
+.texto3{
+    position: absolute;
+    color: black;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.container-cadastro{
+   margin-top: 30px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.buton-cadastro{
+    text-align: center;
+}
