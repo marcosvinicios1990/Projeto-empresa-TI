@@ -18,15 +18,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h2 class="logo"><a href="home.html"> <img src="logo2.png" alt="Logotipo" width="90" height="80" class="d-inline-block align-center">
+                    <h2 class="logo"><a href="home.php"> <img src="logo2.png" alt="Logotipo" width="90" height="80" class="d-inline-block align-center">
                         </a></h2>
                 </div>
                 <div class="col-sm-2">
                     <h5>Inicio</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Cursos</a></li>
-                        <li><a href="#">Downloads</a></li>
+                        <li><a href="home.php">Home</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
@@ -34,15 +32,13 @@
                     <ul>
                         <li><a href="#">Informações da Empresa</a></li>
                         <li><a href="#">Contato</a></li>
-                        <li><a href="#">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
                     <h5>Suporte</h5>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Fale conosco</a></li>
                         <li><a href="#">Telefones</a></li>
-                        <li><a href="#">Chat</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">

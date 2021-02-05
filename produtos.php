@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 include('pdoconexao.php')
 
 
@@ -23,6 +24,40 @@ include('pdoconexao.php')
     </header>
 
     <section>
+
+    <div class="produtos" style="margin-left:12%">
+
+
+                <div class="row">
+                  <div class="col-lg-10">
+                    <div class="row">
+                      <div class="col-lg-8 offset-2 title-div">
+                    <h1 class="ranking-title" style="font-size:40px">{{$titulo}}</h1>
+                    </div>
+                    </div>
+                    <div class="row">
+            @foreach ($produtos as $produto)
+                      <div class="col-lg-6 text-center">
+                    <img src="{{ asset('storage/img/' . $produto->imagem) }}" class="img-fluid img-ranking" alt="produto">
+                      <h3>{{$produto->nome}}</h3>
+                      <p>{{$produto->tipo_produto}}</p>
+                      <h4>R$ {{$produto->preco}}</h3>
+                      <a class='btn btn-lg active' style="background-color:rgb(3, 152, 158); color:white; width:200px; margin-bottom: 55px" href="/exibirUmProduto/{{ $produto->id }}">Ver Avaliação</a><br>
+                  </div>
+                <br>
+              <br>
+            @endforeach
+            </div>
+
+            <div class="row">
+              {{-- <div class="col-lg-8 offset-lg-3">{{ $produtos->links() }}</div> --}}
+              <div class= "paginas" > {{ $produtos->links() }} </div>
+
+           </div>
+
+        </div>
+</div>
+</div>
 
     </section>
 
